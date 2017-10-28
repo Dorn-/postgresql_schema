@@ -21,8 +21,8 @@ DOCUMENTATION = '''
 module: postgresql_schema
 short_description: Add or remove PostgreSQL schema from a remote host.
 description:
-   - Add or remove PostgreSQL schema from a remote host.
-version_added: "0.1"
+   - Add or remove PostgreSQL schema from a remote host. This module has been used extensively since 1.9.6.
+version_added: "2.3"
 options:
   name:
     description:
